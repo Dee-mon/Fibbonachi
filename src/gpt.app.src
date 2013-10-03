@@ -1,0 +1,14 @@
+{application, gpt,
+ [
+  {description, "Test App"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  gproc,
+		  test
+                 ]},
+  {mod, { gpt_app, []}},
+  {env, []}
+ ]}.
